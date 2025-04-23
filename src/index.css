@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Constantine';
+    src: url('../public/fonts/Constantine.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'GoodVibesPro';
+    src: url('../public/fonts/Good_Vibes_Pro.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../public/fonts/Inter-Regular.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter_Medium';
+    src: url('../public/fonts/Inter-Medium.ttf') format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter_Semibold';
+    src: url('../public/fonts/Inter-SemiBold.ttf') format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter_Bold';
+    src: url('../public/fonts/Inter-Bold.ttf') format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #DBDFE9;
+}
+
+/* swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+    /* overflow: visible; */
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+    width: 50px;
+    height: 4px;
+    background: #7C513E;
+    border-radius: 0;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.phone input {
+    width: 100% !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.react-international-phone-country-selector,
+.react-international-phone-country-selector button {
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.PhoneInput_contact,
+.PhoneInput_contact .react-international-phone-country-selector button,
+.PhoneInput_contact input {
+    background: transparent !important;
+}
+
+.PhoneInput_contact input,
+.PhoneInput_contact .react-international-phone-country-selector button {
+    border-bottom: 1px solid #ACACAC !important;
+}
+
+/* for pagination */
+.paginationUL {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px;
+    color: #212B36;
+}
+
+.paginationUL .next,
+.paginationUL .previous {
+    background-color: #056DFA;
+    opacity: 50%;
+}
+
+.paginationUL li {
+    border-radius: 4px;
+    border: 1px solid #DFE3E8;
+    width: 32px !important;
+    height: 32px !important;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.paginationUL li a {
+    margin: 2px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginationUL li.active a {
+    border-color: transparent;
+    color: white;
+}
+
+.paginationUL li.active a:hover {
+    color: #fff !important;
+}
+
+.womenLazyLoadImage span {
+    display: block !important;
+}
+
+/* /slider */
+/* @media (min-width: 768px) {
+    .SwiperSlide {
+        height: 600px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .SwiperSlide {
+        height: 900px !important;
+    }
+} */
+
+/* @media (min-width: 1200px) {
+    .SwiperSlide {
+        height: 1000px !important;
+    }
+} */

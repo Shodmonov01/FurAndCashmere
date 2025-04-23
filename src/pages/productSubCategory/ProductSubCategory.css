@@ -1,0 +1,19 @@
+.grid-item {
+  grid-column: span 1;
+}
+
+.grid-item-start-row {
+  grid-column: span 4; /* Центрируем карточку на всю строку на ПК */
+  justify-self: center;
+}
+
+@media (max-width: 640px) {
+  .grid-item {
+    grid-column: span 1;
+  }
+
+  .grid-item-start-row-mobile {
+    grid-column: span 2; /* Центрируем каждую 5-ю карточку на мобилке */
+    justify-self: center;
+  }
+}

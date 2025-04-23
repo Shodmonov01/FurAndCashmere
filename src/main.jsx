@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
+import { ThemeProvider } from "@material-tailwind/react";
+import App from './App';
+import store from './redux/store';
+import './index.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <Provider store={store}>
+    <ThemeProvider>
+      {/* <React.StrictMode> */}
+      <App />
+      {/* </React.StrictMode> */}
+    </ThemeProvider>
+  </Provider>
+)
