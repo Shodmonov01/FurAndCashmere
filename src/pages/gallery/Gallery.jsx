@@ -8,9 +8,7 @@ import Layout from '../../services/Layout';
 import Footer from '../../components/Footer';
 import { getAllBlogs, isClearBlogs } from '../../redux/reducers/rootReducer';
 import Header from '../../components/Header';
-import ContactForm from '../home/components/ContactForm';
-import tiny_new from '../../assets/tiny_new.mp4';
-// import contact from '../../assets/contact.png';
+
 
 function Gallery(props) {
     const navigate = useNavigate();

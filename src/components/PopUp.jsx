@@ -30,7 +30,7 @@ function PopUp() {
                 <img src={circle_icon} alt="no image" className='absolute inset-0 inline-flex rounded-full' />
             </span>
             <div className='min-h-[100px] bg-white rounded-[20px] px-[15px] py-[10px] transition-all duration-1000' style={{ display: "none" }} id="popupmenu">
-                {/* <ul className='text-[12px] lg:text-[14px] flex flex-col gap-[10px] items-end'>
+                <ul className='text-[12px] lg:text-[14px] flex flex-col gap-[10px] items-end'>
                     <li className='text-dark-red'>+7 921 553 07 51</li>
                     <li className={`text-bold_text hover:text-opacity-80 transition-all`}>
                         <a href="https://t.me/furcashmere" target='_blank'>Telegram</a>
@@ -44,7 +44,7 @@ function PopUp() {
                     <li className={`text-bold_text hover:text-opacity-80 transition-all`}>
                         <a href="https://www.instagram.com/fur.cashmere/" target='_blank'>Instagram</a>
                     </li>
-                </ul> */}
+                </ul>
             </div>
         </div>
     )

@@ -13,8 +13,8 @@ import tkan7 from '../../assets/tkan7.png';
 import tkan7_mobile from '../../assets/tkan7_mobile.png';
 import tkan8 from '../../assets/tkan8.png';
 import tkan8_mobile from '../../assets/tkan8_mobile.png';
-import tkan9 from '../../assets/tkan9.jpg';
-import tkan9_mobile from '../../assets/tkan9_mobile.jpg';
+// import tkan9 from '../../assets/tkan9.jpg';
+// import tkan9_mobile from '../../assets/tkan9_mobile.jpg';
 
 function FabricExcellence() {
     return (
@@ -37,6 +37,17 @@ function FabricExcellence() {
                             <h2 className='leading-[31px] lg:leading-[60px] text-[26px] lg:text-[50px] uppercase text-dark-red block lg:hidden'>Превосходство <br /> тканей</h2>
                         </div>
                     </div>
+
+                    <div className='flex flex-col gap-[10px] lg:gap-[30px]'>
+                            <div className='w-full lg:w-[50%] m-auto pt-[10px] lg:pt-[30px] text-[14px] lg:text-[15px] text-normal_text text-center'>
+                                <ul>
+                                    <li>
+                                        Традиции и инновации - воплощение особой истории в каждом изделии.
+                                    </li>
+                                </ul>
+                            </div>
+                          
+                        </div>
 
                     {/* row 2 */}
                     <div className='pt-[50px] lg:pt-[100px]'>
@@ -159,7 +170,7 @@ function FabricExcellence() {
                     </div>
 
                     {/* row 8 */}
-                    <div className='py-[50px] lg:py-[100px]'>
+                    {/* <div className='py-[50px] lg:py-[100px]'>
                         <div className='flex flex-col gap-[10px] lg:gap-[30px]'>
                             <div className='pt-[20px]'>
                                 <img src={tkan9} alt="no image" className='w-full h-[calc(100vh_-_50px)] xxxl:h-auto hidden lg:block object-cover' />
@@ -173,7 +184,7 @@ function FabricExcellence() {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <ContactMap />
                 </div>

@@ -5,7 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import routes from './routes';
 import Navbar from '../components/navbar/Navbar';
 import { getAllCategories } from '../redux/reducers/rootReducer';
-import PopUp from '../components/PopUp';
+// import PopUp from '../components/PopUp';
 
 function RouterConfig(props) {
 
@@ -38,7 +38,7 @@ function RouterConfig(props) {
                 {menu}
             </Routes>
 
-            <PopUp />
+            {/* <PopUp /> */}
 
             {/* for toast */}
             <ToastContainer
